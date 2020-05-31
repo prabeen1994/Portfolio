@@ -143,7 +143,15 @@ body {
   color: white;
 }
 
-
+@media (max-width: 800px) {
+  .card1 {
+    grid-template-columns: 1fr;
+  }
+  
+  .subcard2 {
+    width: auto;
+  }
+}
 
 
 
