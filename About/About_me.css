@@ -1,0 +1,103 @@
+body {
+  font-family: Overpass;
+  margin:0;
+  padding:0;
+  background: black;
+}
+
+body{
+  width:100%;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+html{
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  color: white;
+  font-family: Chivo;
+}
+
+
+.container{
+  width: 100%;
+
+}
+
+
+.card {
+  text-align: center; 
+}
+
+
+.card img {
+  opacity:0.9;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+ 
+}
+
+
+.card1 {
+  display: grid;
+  background: white;
+  grid-gap: 30px;
+  align-content: center;
+  padding:15px;
+
+}
+
+.card1a {
+  width: 100%;
+  margin: auto;
+
+}
+
+.card1 h3{
+  color: black;
+  text-align: center;
+  font-size:15px;
+}
+
+.card1 p{
+  text-align: justify;
+  color: black;
+
+}
+
+
+/*Footer*/
+
+.footer {
+  background: #135376;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer p {
+  color: white;
+  opacity:1;
+}
+
+.fbutton{
+  background-color: #2fc4b2;
+  color: white;
+  padding: 15px 46px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.fbutton:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+
+
+

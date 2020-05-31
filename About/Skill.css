@@ -1,0 +1,139 @@
+body {
+  font-family: Overpass;
+  margin: 0;
+}
+
+ h2, h3 {
+  color: #404042;
+  font-family: Chivo;
+}
+
+
+.container {
+  background: white;
+  width: 870px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.container h2{
+  color: #034569;
+  border-bottom: 3px solid #034569;
+}
+
+.container h3{
+  color: #034569;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/Dataanalyst.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  border-bottom: 10px solid #bf00ff;
+}
+
+.card1 {
+  display: grid;
+  grid-template-columns: 140px 500px;
+  grid-gap: 65px;
+  grid-row-gap: 65px;
+  grid-column-gap: 65px;
+}
+.card1 {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 800px;
+  text-align: right;
+  padding: 24px;
+  margin: 7px;
+}
+
+
+.card1 h3 {
+  color: #034569;
+  margin-bottom: 0;
+}
+
+.subcard1 {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 135px;
+  text-align: left;
+  padding: 23px;
+  margin: 2px;
+}
+
+.subcard1 img {
+  width: 135px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.subcard1 h3 {
+  margin-bottom: 0;
+}
+
+.subcard2 {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  width: 535px;
+  align-items: center;
+  padding: 23px;
+  margin: 2px;
+}
+
+.subcard2 p{
+  text-align: justify;
+}
+
+
+
+.prabeen_one {
+  display: grid;
+  grid-template-columns: 700px ;
+}
+
+.footer {
+  background: #135376;
+  text-align: center;
+  padding: 23px 0;
+}
+
+.footer p {
+  color: white;
+  opacity: 1;
+}
+
+.fbutton{
+  background-color: #2fc4b2;
+  color: white;
+  padding: 16px 46px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.fbutton:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 

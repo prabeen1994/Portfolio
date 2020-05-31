@@ -1,0 +1,118 @@
+body {
+  font-family: Overpass;
+  margin: 0;
+}
+
+ h2, h3 {
+  color: #034569;
+  font-family: Chivo;
+}
+
+
+.banner {
+  background-image: url('../images/data_port.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+  border-bottom: 10px solid #0080ff;
+}
+
+
+.container {
+  width: 850px;
+  margin: auto;
+}
+
+.container h2{
+  color: #034569;
+  border-bottom: 3px solid #034569;
+}
+.prabeen_one {
+  display: grid;
+  grid-template-columns: 650px ;
+}
+
+
+.card1 {
+  display: grid;
+  grid-template-columns: 170px 170px 170px 170px;
+  grid-gap: 55px;
+  grid-row-gap: 55px;
+  grid-column-gap: 55px;
+}
+.card1 {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  width: 880px;
+  height: 530px
+  text-align: right;
+  padding: 23px;
+  margin: 7px;
+}
+
+.card1 h3 {
+  margin-bottom: 0;
+}
+
+.subcard1 {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  width: 135px;
+  text-align: left;
+  padding: 23px;
+  margin: 2px;
+}
+
+.subcard1 img {
+  width: 135px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.subcard1 h3 {
+  margin-bottom: 0;
+}
+
+
+.footer {
+  background: #135376;
+  text-align: center;
+  padding: 23px 0;
+}
+
+.footer p {
+  color: white;
+  opacity: 1;
+
+}
+
+.fbutton{
+  background-color: #2fc4b2;
+  color: white;
+  padding: 15px 46px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.fbutton:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 

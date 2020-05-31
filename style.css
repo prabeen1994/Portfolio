@@ -1,0 +1,113 @@
+
+body {
+  font-family: 'Overpass' , sans-serif;
+  font-size: 18px;
+  color: rgb(30, 30, 30);
+  background-color: rgb(230, 230, 230);
+}
+
+h1,h2{
+  font-family: 'Chivo' , sans-serif;
+
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.container h2{
+  color: #034569;
+  border-bottom: 3px solid #034569;
+}
+
+
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+
+.banner{
+	background-image: url(images/Wallpaper.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding: 180px 0px;
+
+
+}
+
+
+.card-white{
+	background-color: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+
+
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.footer{
+	background: #135376;
+	text-align: center;
+	padding: 24px 0;
+}
+
+.footer p{
+	color: white;
+}
+
+.fbutton{
+  background-color: #2fc4b2;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.fbutton:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+
