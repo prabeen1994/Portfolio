@@ -22,25 +22,6 @@ h1,h2{
 }
 
 
-@media (min-width: 500px) {
-  .container {
-    width: 400px;
-  }
-}
-
-
-@media (min-width: 800px) {
-  .container {
-    width: 600px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .container {
-    width: 800px;
-  }
-}
-
 
 .banner{
 	background-image: url(images/Wallpaper.jpg);
@@ -105,14 +86,6 @@ h1,h2{
 	grid-gap: 16px;
 }
 
-@media (max-width: 800px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-  
-  .card-white {
-    width: auto;
-  }
-}
+
 
 
