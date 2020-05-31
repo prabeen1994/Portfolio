@@ -25,24 +25,7 @@ body {
   color: #034569;
 }
 
-@media (min-width: 500px) {
-  .container {
-    width: 400px;
-  }
-}
 
-
-@media (min-width: 800px) {
-  .container {
-    width: 600px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .container {
-    width: 800px;
-  }
-}
 
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/Dataanalyst.jpg');
@@ -143,15 +126,7 @@ body {
   color: white;
 }
 
-@media (max-width: 800px) {
-  .card1 {
-    grid-template-columns: 1fr;
-  }
-  
-  .subcard2 {
-    width: auto;
-  }
-}
+
 
 
 
