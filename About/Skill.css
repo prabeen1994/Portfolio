@@ -94,12 +94,6 @@ body {
 }
 
 
-
-.prabeen_one {
-  display: grid;
-  grid-template-columns: 700px ;
-}
-
 .footer {
   background: #135376;
   text-align: center;
