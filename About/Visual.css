@@ -28,11 +28,6 @@ body {
   color: #034569;
   border-bottom: 3px solid #034569;
 }
-.prabeen_one {
-  display: grid;
-  grid-template-columns: 650px ;
-}
-
 
 .card1 {
   display: grid;
